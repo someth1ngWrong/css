@@ -3,8 +3,8 @@
 
 body {
   font-family: "PT Sans", Helvetica, sans-serif, serif, monospace;
-  width: 400px;
-  margin:  70px auto 0 370px;
+  width: 800px;
+  margin:  67px 0 0 370px;
   background-image: url(../img/dc-online-media-mockup.jpg);
   background-repeat: no-repeat;
   background-position: top center;
@@ -13,17 +13,20 @@ body {
 
 h1 {
 color: red;
-font-size: 60px;
+font-size: 45px;
 font-weight: bold;
 }
 
 p {
   margin-bottom: 15px;
+  font-size: 20px;
+  line-height: 100px;
 }
 
 
 
 h1 + p{
+  color: #119940;
 
 }
 /* com */
