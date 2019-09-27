@@ -3,30 +3,83 @@
 
 body {
   font-family: "PT Sans", Helvetica, sans-serif, serif, monospace;
-  width: 800px;
+  width: 700px;
   margin:  67px 0 0 370px;
-  background-image: url(../img/dc-online-media-mockup.jpg);
+  /* background-image: url(../img/dc-online-media-mockup.jpg); */
   background-repeat: no-repeat;
   background-position: top center;
   background-size: 800px 20624px;
 }
 
+.top {
+  color: gray;
+  font-size: 25px;
+  margin-bottom: 31px;
+}
+
 h1 {
-color: red;
 font-size: 45px;
 font-weight: bold;
 }
 
+h2 {
+  font-size: 37px;
+  font-weight: bold;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+
+h3 {
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+
+h4 {
+  font-size: 23px;
+  font-weight: bold;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
 p {
-  margin-bottom: 15px;
   font-size: 20px;
-  line-height: 100px;
+  line-height: 32px;
+  margin-bottom: 30px;
+}
+
+ol {
+  list-style-type: decimal;
+  font-size: 20px;
+  padding-left:20px;
+}
+
+li {
+  line-height: 32px;
+  margin-bottom: 10px;
+  padding-left:10px;
+}
+
+.cicata{
+  border-left: solid 3px;
+  padding-left:20px;
+  margin-left: -20px;
+  font-style: italic;
+}
+
+.dot {
+  list-style-type: disc;
+}
+
+.gray {
+  color: gray;
+}
+.black {
+  color: black;
 }
 
 
-
-h1 + p{
-  color: #119940;
-
-}
+/* h1 + p{
+  color: gray;
+} */
 /* com */
