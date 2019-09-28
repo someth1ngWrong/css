@@ -3,12 +3,23 @@
 
 body {
   font-family: "PT Sans", Helvetica, sans-serif, serif, monospace;
-  width: 700px;
-  margin:  67px 0 0 370px;
-  /* background-image: url(../img/dc-online-media-mockup.jpg); */
+  /* width: 700px;
+  margin:  0 auto; */
   background-repeat: no-repeat;
   background-position: top center;
   background-size: 800px 20624px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1,
+h2,
+h3,
+p,
+ol,
+blockquote {
+  width: 700px;
+  margin: 0 auto;
 }
 
 .top {
@@ -60,7 +71,7 @@ li {
   padding-left:10px;
 }
 
-.cicata{
+blockquote {
   border-left: solid 3px;
   padding-left:20px;
   margin-left: -20px;
@@ -77,6 +88,60 @@ li {
 .black {
   color: black;
 }
+img {
+  display: block;
+  width: 1000px;
+  margin: 0 auto;
+}
+
+/* ---------------------------------- */
+
+blockquote {
+  position: relative;
+  margin-top: 20px;
+  font-style: italic;
+
+}
+
+blockquote::before {
+  content: "";
+  position: absolute;
+  left: -20px;
+  width: 2px;
+  height: 100%;
+  background-color: black;
+}
+
+blockquote::after {
+  content: "";
+  position: absolute;
+  right: : 20px;
+  top: 0;
+  width: 2px;
+  height: 100%;
+  background-color: black;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited{
+  color: tomato;
+}
+
+a:hover {
+  color: green;
+}
+
+div p {
+  color: blue;
+}
+
+div ~ p {
+  color: green;
+}
+
 
 
 /* h1 + p{
