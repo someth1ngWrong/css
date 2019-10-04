@@ -63,13 +63,16 @@ ol {
   list-style-type: decimal;
   font-size: 20px;
   padding-left:20px;
+  color: red;
 }
 
 li {
   line-height: 32px;
   margin-bottom: 10px;
   padding-left:10px;
+  color: blue;
 }
+
 
 blockquote {
   border-left: solid 3px;
@@ -142,6 +145,12 @@ div ~ p {
   color: green;
 }
 
+blockquote {
+  border-style: dotted;
+  padding-left:20px;
+  margin-left: -20px;
+  font-style: italic;
+}
 
 
 /* h1 + p{
