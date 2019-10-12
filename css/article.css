@@ -1,0 +1,33 @@
+body {
+  background-color: gray;
+}
+
+article {
+  margin: auto;
+  border-radius: 10px;
+
+  position: relative;
+  width: 700px;
+  height: 400px;
+  background-color: white;
+}
+
+img {
+
+  display: block;
+  top: 50px;
+  margin: 0 auto;
+
+
+
+
+  width: 500px;
+  height: 100px;
+
+}
+
+h2 {
+  position: absolute;
+  left: 20px;
+  top: 20px;
+}
